@@ -8,7 +8,7 @@ This repo contains the challenges that are part of the Styla "**CS101 - Coding c
 
 -   Clone this project locally
 -   run `yarn` to install dependencies
--   Write your code in `index.tsx`
+-   Write your code in `src/index.tsx`
 -   run `yarn start`. Changes to the code are automatically detected and will trigger an automatic restart of the service.
 
 ## How to run tests
@@ -53,7 +53,7 @@ swap(2, 3) => [1, 2, 3, 4, 5]
 ```
 
 **Implementation details:**
-The function called `minimumSwaps` is already bootstrapped in `index.tsx`. Put your logic inside here.
+The function called `minimumSwaps` is already bootstrapped in `src/index.tsx`. Put your logic inside here.
 When you're done run `yarn test` to verify if your solution is correct.
 
 ---
