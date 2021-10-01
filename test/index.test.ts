@@ -57,6 +57,14 @@ describe("Minimum swaps", () => {
 
             assert.equal(expectedOutput, result);
         }
+        {
+            const input = [7, 1, 3, 2, 4, 5, 6];
+            const expectedOutput = 5;
+
+            const result = minimumSwaps(input);
+
+            assert.equal(expectedOutput, result);
+        }
     });
 
     it("If sequence is already ordered, should return 0", () => {
