@@ -2,7 +2,7 @@ const assert = require("assert");
 import { minimumSwaps } from "../src";
 
 describe("Minimum swaps", () => {
-    it("Should return the minimum number of swaps to obtain the sequence", () => {
+    it("Should return the minimum number of swaps required to obtain the ordered sequence", () => {
         {
             const input = [4, 3, 1, 2];
             const expectedOutput = 3;
@@ -30,6 +30,28 @@ describe("Minimum swaps", () => {
         {
             const input = [1, 2, 10, 4, 5, 6, 7, 8, 9, 3, 11, 12];
             const expectedOutput = 1;
+
+            const result = minimumSwaps(input);
+
+            assert.equal(expectedOutput, result);
+        }
+        {
+            const input = [
+                15, 2, 3, 7, 12, 6, 16, 8, 9, 10, 11, 5, 13, 14, 1, 4, 17, 18,
+                19, 20,
+            ];
+            const expectedOutput = 4;
+
+            const result = minimumSwaps(input);
+
+            assert.equal(expectedOutput, result);
+        }
+        {
+            const input = [
+                15, 2, 3, 7, 12, 6, 4, 8, 19, 9, 11, 5, 13, 14, 1, 16, 17, 18,
+                19, 20,
+            ];
+            const expectedOutput = 5;
 
             const result = minimumSwaps(input);
 
