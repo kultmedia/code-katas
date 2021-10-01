@@ -1,12 +1,8 @@
 type TInput = number[];
 type TOutput = number;
 
-export const sampleFunc = (sequence: TInput): TOutput => {
-    let sum = 0;
+export const minimumSwaps = (sequence: TInput): TOutput => {
+    // your code goes here :)
 
-    sequence.forEach((singleNumber) => {
-        sum = sum + singleNumber;
-    });
-
-    return sum;
+    return 0;
 };

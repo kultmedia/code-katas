@@ -1,41 +1,47 @@
 const assert = require("assert");
-import { sampleFunc } from "../src";
+import { minimumSwaps } from "../src";
 
-describe("Sample Function", () => {
-    it("Should return the sum of numbers in the sequence", () => {
+describe("Minimum swaps", () => {
+    it("Should return the minimum number of swaps to obtain the sequence", () => {
         {
-            const input = [2, 4, 5, 8];
-            const expectedOutput = 19;
+            const input = [4, 3, 1, 2];
+            const expectedOutput = 3;
 
-            const result = sampleFunc(input);
+            const result = minimumSwaps(input);
 
             assert.equal(expectedOutput, result);
         }
-
         {
-            const input = [1, 2, 3];
-            const expectedOutput = 6;
+            const input = [2, 3, 4, 1, 5];
+            const expectedOutput = 3;
 
-            const result = sampleFunc(input);
+            const result = minimumSwaps(input);
 
             assert.equal(expectedOutput, result);
         }
-
         {
-            const input = [1];
+            const input = [1, 3, 5, 2, 4, 6, 7];
+            const expectedOutput = 3;
+
+            const result = minimumSwaps(input);
+
+            assert.equal(expectedOutput, result);
+        }
+        {
+            const input = [1, 2, 10, 4, 5, 6, 7, 8, 9, 3, 11, 12];
             const expectedOutput = 1;
 
-            const result = sampleFunc(input);
+            const result = minimumSwaps(input);
 
             assert.equal(expectedOutput, result);
         }
     });
 
-    it("Should return 0 if sequence is empty", () => {
-        const input = [] as number[];
+    it("If sequence is already ordered, should return 0", () => {
+        const input = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
         const expectedOutput = 0;
 
-        const result = sampleFunc(input);
+        const result = minimumSwaps(input);
 
         assert.equal(expectedOutput, result);
     });
