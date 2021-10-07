@@ -1,6 +1,6 @@
-# CS101 - Coding Challenges
+# CS101 - Code Katas 🥋
 
-This repo contains the challenges that are part of the Styla "**CS101 - Coding challenge**" events.
+This repo contains the challenges that are part of the Styla "**CS101 - Code Katas**" events.
 
 ---
 
@@ -17,7 +17,7 @@ This repo contains the challenges that are part of the Styla "**CS101 - Coding c
 
 ---
 
-## Challenge n.1
+## Kata n.1
 
 **Date:** 8/10/2021
 
@@ -35,7 +35,7 @@ swap(0, 2);
 
 ```
 
-The goal is to indicate the **minimum number** of swaps necessary in order to sort the array in ascending order.
+The goal is to indicate the **minimum number** of swaps necessary in order to sort back the array in ascending order.
 
 Example:
 
@@ -60,4 +60,4 @@ When you're done run `yarn test` to verify if your solution is correct.
 
 ## Questions?
 
-This repo is maintained by [@antoniocosentino](https://github.com/antoniocosentino). For any question [open an issue](https://github.com/kultmedia/code-challenges/issues) or find me on Slack.
+This repo is maintained by [@antoniocosentino](https://github.com/antoniocosentino). For any question [open an issue](https://github.com/kultmedia/code-katas/issues) or find me on Slack.
