@@ -48,10 +48,10 @@ describe("Minimum swaps", () => {
         }
         {
             const input = [
-                15, 2, 3, 7, 12, 6, 4, 8, 19, 9, 11, 5, 13, 14, 1, 16, 17, 18,
+                15, 2, 3, 7, 12, 6, 4, 8, 10, 9, 11, 5, 13, 14, 1, 16, 17, 18,
                 19, 20,
             ];
-            const expectedOutput = 5;
+            const expectedOutput = 4;
 
             const result = minimumSwaps(input);
 
