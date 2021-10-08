@@ -24,7 +24,7 @@ This repo contains the challenges that are part of the Styla "**CS101 - Code Kat
 **Topic:** Minimum Array swaps
 
 **Description:**
-You are given an unordered array of numbers. There are no duplicates and no missing numbers. This array was "scrambled" by using _n_ times a hypothetical "swap" function, which is taking 2 indexes and swapping the numbers contained in these indexes.
+You are given an unordered array of numbers. There are no duplicates and no missing numbers. The size of the array might vary, but the lowest number is always 1. This array was "scrambled" by using _n_ times a hypothetical "swap" function, which is taking 2 indexes and swapping the numbers contained in these indexes.
 
 Example:
 
