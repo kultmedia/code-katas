@@ -1,14 +1,14 @@
 {
-    "name": "code-challenges",
+    "name": "code-katas",
     "version": "1.0.0",
-    "description": "Repo for CS101 code challenges",
-    "main": "index.js",
-    "repository": "https://github.com/kultmedia/code-challenges",
+    "description": "Repo for CS101 code katas",
+    "repository": "https://github.com/kultmedia/code-katas",
     "author": "Antonio Cosentino",
     "license": "MIT",
     "scripts": {
         "start": "nodemon",
-        "test": "mocha -r ts-node/register 'test/*.ts'"
+        "test": "mocha -r ts-node/register 'test/*/*.ts'",
+        "test:01": "mocha -r ts-node/register 'test/01/*.ts'"
     },
     "dependencies": {
         "@types/node": "^16.9.6",
