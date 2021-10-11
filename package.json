@@ -5,10 +5,14 @@
     "repository": "https://github.com/kultmedia/code-katas",
     "author": "Antonio Cosentino",
     "license": "MIT",
+    "config": {
+        "kata": "01",
+        "message": "ℹ️ To run a different challenge, change the number defined in package.json: config -> kata"
+    },
     "scripts": {
-        "start": "nodemon",
-        "test": "mocha -r ts-node/register 'test/*/*.ts'",
-        "test:01": "mocha -r ts-node/register 'test/01/*.ts'"
+        "start": "yarn info-message && nodemon --exec \"ts-node ./src/$npm_package_config_kata/index.ts\"",
+        "test": "yarn info-message && mocha -r ts-node/register \"test/$npm_package_config_kata/*.ts\"",
+        "info-message": "echo \"\\x1b[94m$npm_package_config_message\\x1b[0m\""
     },
     "dependencies": {
         "@types/node": "^16.9.6",

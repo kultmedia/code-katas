@@ -9,15 +9,16 @@ This repo contains the challenges that are part of the Styla "**CS101 - Code Kat
 -   Clone this project locally
 -   run `yarn` to install dependencies
 -   Write your code in `src/{kata number}/index.tsx`
+-   Make sure that `package.json` is configured to run the correct challenge number (under `config -> kata`)
 -   run `yarn start`. Changes to the code are automatically detected and will trigger an automatic restart of the service.
 
 ## How to run tests
 
--   run `yarn test:{kata number}`. This will test the ouput of your function (based on the current challenge) and inform you on the success or failure.
+-   run `yarn test`. This will test the ouput of your function (based on the current challenge) and inform you on the success or failure.
 
 ---
 
-## Kata n.1
+## Kata n.01
 
 **Date:** 8/10/2021
 
@@ -54,7 +55,7 @@ swap(2, 3) => [1, 2, 3, 4, 5]
 
 **Implementation details:**
 The function called `minimumSwaps` is already bootstrapped in `src/01/index.tsx`. Put your logic inside here.
-When you're done, run `yarn test:01` to verify if your solution is correct.
+When you're done, run `yarn test` to verify that your solution is correct.
 
 ---
 

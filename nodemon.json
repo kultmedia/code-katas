@@ -3,6 +3,5 @@
         "src"
     ],
     "ext": ".ts,.js",
-    "ignore": [],
-    "exec": "ts-node ./src/01/index.ts"
+    "ignore": []
 }
