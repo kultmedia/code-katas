@@ -6,7 +6,7 @@
     "author": "Antonio Cosentino",
     "license": "MIT",
     "config": {
-        "kata": "01",
+        "kata": "02",
         "message": "ℹ️ To run a different challenge, change the number defined in package.json: config -> kata"
     },
     "scripts": {

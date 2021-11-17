@@ -4,7 +4,8 @@
 
 **Topic:** Minimum Array swaps
 
-**Description:**
+### Description:
+
 You are given an unordered array of numbers. There are no duplicates and no missing numbers. The size of the array might vary, but the lowest number is always 1. This array was "scrambled" by using _n_ times a hypothetical "swap" function, which is taking 2 indexes and swapping the numbers contained in these indexes.
 
 Example:
@@ -33,6 +34,7 @@ swap(2, 3) => [1, 2, 3, 4, 5]
 
 ```
 
-**Implementation details:**
+### Implementation details:
+
 The function called `minimumSwaps` is already bootstrapped in `src/01/index.tsx`. Put your logic inside here.
 When you're done, run `yarn test` to verify that your solution is correct.
