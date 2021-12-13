@@ -9,7 +9,7 @@ describe("Minimum swaps", () => {
 
             const result = minimumSwaps(input);
 
-            assert.equal(expectedOutput, result);
+            assert.equal(result, expectedOutput);
         }
     });
     it("With sequence n.2, returns the minimum number of swaps", () => {
@@ -19,7 +19,7 @@ describe("Minimum swaps", () => {
 
             const result = minimumSwaps(input);
 
-            assert.equal(expectedOutput, result);
+            assert.equal(result, expectedOutput);
         }
     });
     it("With sequence n.3, returns the minimum number of swaps", () => {
@@ -29,7 +29,7 @@ describe("Minimum swaps", () => {
 
             const result = minimumSwaps(input);
 
-            assert.equal(expectedOutput, result);
+            assert.equal(result, expectedOutput);
         }
     });
     it("With sequence n.4, returns the minimum number of swaps", () => {
@@ -39,7 +39,7 @@ describe("Minimum swaps", () => {
 
             const result = minimumSwaps(input);
 
-            assert.equal(expectedOutput, result);
+            assert.equal(result, expectedOutput);
         }
     });
     it("With sequence n.5, returns the minimum number of swaps", () => {
@@ -52,7 +52,7 @@ describe("Minimum swaps", () => {
 
             const result = minimumSwaps(input);
 
-            assert.equal(expectedOutput, result);
+            assert.equal(result, expectedOutput);
         }
     });
     it("With sequence n.6, returns the minimum number of swaps", () => {
@@ -65,7 +65,7 @@ describe("Minimum swaps", () => {
 
             const result = minimumSwaps(input);
 
-            assert.equal(expectedOutput, result);
+            assert.equal(result, expectedOutput);
         }
     });
 
@@ -76,7 +76,7 @@ describe("Minimum swaps", () => {
 
             const result = minimumSwaps(input);
 
-            assert.equal(expectedOutput, result);
+            assert.equal(result, expectedOutput);
         }
     });
 
@@ -86,6 +86,6 @@ describe("Minimum swaps", () => {
 
         const result = minimumSwaps(input);
 
-        assert.equal(expectedOutput, result);
+        assert.equal(result, expectedOutput);
     });
 });

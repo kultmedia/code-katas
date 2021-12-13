@@ -18,7 +18,7 @@ describe("Connect Four - Check for Winner", () => {
 
             const result = checkForWinner(board);
 
-            assert.equal(expectedOutput, result);
+            assert.equal(result, expectedOutput);
         }
     });
 
@@ -37,7 +37,7 @@ describe("Connect Four - Check for Winner", () => {
 
             const result = checkForWinner(board);
 
-            assert.equal(expectedOutput, result);
+            assert.equal(result, expectedOutput);
         }
     });
 
@@ -56,7 +56,7 @@ describe("Connect Four - Check for Winner", () => {
 
             const result = checkForWinner(board);
 
-            assert.equal(expectedOutput, result);
+            assert.equal(result, expectedOutput);
         }
     });
 
@@ -75,7 +75,7 @@ describe("Connect Four - Check for Winner", () => {
 
             const result = checkForWinner(board);
 
-            assert.equal(expectedOutput, result);
+            assert.equal(result, expectedOutput);
         }
     });
 
@@ -94,7 +94,7 @@ describe("Connect Four - Check for Winner", () => {
 
             const result = checkForWinner(board);
 
-            assert.equal(expectedOutput, result);
+            assert.equal(result, expectedOutput);
         }
     });
 
@@ -113,7 +113,7 @@ describe("Connect Four - Check for Winner", () => {
 
             const result = checkForWinner(board);
 
-            assert.equal(expectedOutput, result);
+            assert.equal(result, expectedOutput);
         }
     });
 
@@ -132,7 +132,7 @@ describe("Connect Four - Check for Winner", () => {
 
             const result = checkForWinner(board);
 
-            assert.equal(expectedOutput, result);
+            assert.equal(result, expectedOutput);
         }
     });
 
@@ -151,7 +151,7 @@ describe("Connect Four - Check for Winner", () => {
 
             const result = checkForWinner(board);
 
-            assert.equal(expectedOutput, result);
+            assert.equal(result, expectedOutput);
         }
     });
 
@@ -170,7 +170,7 @@ describe("Connect Four - Check for Winner", () => {
 
             const result = checkForWinner(board);
 
-            assert.equal(expectedOutput, result);
+            assert.equal(result, expectedOutput);
         }
     });
 
@@ -189,7 +189,7 @@ describe("Connect Four - Check for Winner", () => {
 
             const result = checkForWinner(board);
 
-            assert.equal(expectedOutput, result);
+            assert.equal(result, expectedOutput);
         }
     });
 
@@ -208,7 +208,7 @@ describe("Connect Four - Check for Winner", () => {
 
             const result = checkForWinner(board);
 
-            assert.equal(expectedOutput, result);
+            assert.equal(result, expectedOutput);
         }
     });
 
@@ -227,7 +227,7 @@ describe("Connect Four - Check for Winner", () => {
 
             const result = checkForWinner(board);
 
-            assert.equal(expectedOutput, result);
+            assert.equal(result, expectedOutput);
         }
     });
 
@@ -246,11 +246,11 @@ describe("Connect Four - Check for Winner", () => {
 
             const result = checkForWinner(board);
 
-            assert.equal(expectedOutput, result);
+            assert.equal(result, expectedOutput);
         }
     });
 
-    it("A 3rd case with diagonal descending winner", () => {
+    it("A 3rd case with diagonal ascending winner", () => {
         {
             const board = [
                 [0, 0, 0, 0, 0, 0, 0],
@@ -265,7 +265,7 @@ describe("Connect Four - Check for Winner", () => {
 
             const result = checkForWinner(board);
 
-            assert.equal(expectedOutput, result);
+            assert.equal(result, expectedOutput);
         }
     });
 
@@ -284,7 +284,7 @@ describe("Connect Four - Check for Winner", () => {
 
             const result = checkForWinner(board);
 
-            assert.equal(expectedOutput, result);
+            assert.equal(result, expectedOutput);
         }
     });
 
@@ -303,7 +303,7 @@ describe("Connect Four - Check for Winner", () => {
 
             const result = checkForWinner(board);
 
-            assert.equal(expectedOutput, result);
+            assert.equal(result, expectedOutput);
         }
     });
 
@@ -322,7 +322,7 @@ describe("Connect Four - Check for Winner", () => {
 
             const result = checkForWinner(board);
 
-            assert.equal(expectedOutput, result);
+            assert.equal(result, expectedOutput);
         }
     });
 
@@ -341,7 +341,7 @@ describe("Connect Four - Check for Winner", () => {
 
             const result = checkForWinner(board);
 
-            assert.equal(expectedOutput, result);
+            assert.equal(result, expectedOutput);
         }
     });
 
@@ -360,7 +360,7 @@ describe("Connect Four - Check for Winner", () => {
 
             const result = checkForWinner(board);
 
-            assert.equal(expectedOutput, result);
+            assert.equal(result, expectedOutput);
         }
     });
 
@@ -379,7 +379,7 @@ describe("Connect Four - Check for Winner", () => {
 
             const result = checkForWinner(board);
 
-            assert.equal(expectedOutput, result);
+            assert.equal(result, expectedOutput);
         }
     });
 });
