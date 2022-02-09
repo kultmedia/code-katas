@@ -6,7 +6,7 @@
     "author": "Antonio Cosentino",
     "license": "MIT",
     "config": {
-        "kata": "03",
+        "kata": "04",
         "message": "ℹ️ To run a different challenge, change the number defined in package.json: config -> kata"
     },
     "scripts": {
@@ -16,6 +16,7 @@
     },
     "dependencies": {
         "@types/node": "^16.9.6",
+        "chai": "^4.3.6",
         "fs": "^0.0.1-security",
         "nodemon": "^2.0.13",
         "path": "^0.12.7",

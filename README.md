@@ -23,6 +23,7 @@ This repo contains the challenges that are part of the Styla "**CS101 - Code Kat
 | 01  | 08/10/2021 | Minimum Array Swaps      | [View](src/01/README.md) |
 | 02  | 19/11/2021 | Connect Four             | [View](src/02/README.md) |
 | 03  | 17/12/2021 | Twelve Days of Christmas | [View](src/03/README.md) |
+| 04  | 11/02/2022 | Ransom Note              | [View](src/04/README.md) |
 
 ---
 
