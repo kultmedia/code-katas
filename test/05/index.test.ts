@@ -1,5 +1,4 @@
 const assert = require("assert");
-import { ransomNote } from "../../src/04";
 import { countTriplets } from "../../src/05";
 
 const { performance } = require("perf_hooks");
